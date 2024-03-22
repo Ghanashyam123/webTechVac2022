@@ -1,0 +1,45 @@
+body {
+  background-color: pink;
+  background-size: 100%;
+}
+.login {
+  width: 380px;
+  height: 260px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  color: white;
+  padding: 50px;
+}
+.login table {
+  width: 100%;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+a {
+  color: white;
+}
+input[type="submit"] {
+  width: 105%;
+  color: blue;
+  padding: 10px 5px;
+  background: orange;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#b1 {
+  font-size: 20px;
+}
+td,
+th {
+  padding: 10px;
+}
+input[type="submit"]:hover {
+  background: rgb(3, 202, 252);
+}
