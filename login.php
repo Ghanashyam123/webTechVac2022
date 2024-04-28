@@ -7,14 +7,12 @@ if(isset($_POST['login'])){
     $result=mysqli_query($conn,$sql);
     if (mysqli_num_rows($result) >0){
         session_start();
-        $_SESSION["email"]=$email;//
-         echo "<script>alert('Login Success');window.location='dashboard.php';</script>";
+        $_SESSION["username"]=$email;//
+         echo "<script>alert('Login Success');window.location='displayData.php';</script>";
     }else{
         echo "<script>alert('Email or Password is incorrect! Please try again')</script>";
-
         }
     }
-
 
 ?>
 <!doctype html>
@@ -43,7 +41,10 @@ if(isset($_POST['login'])){
 						</td>
 					</tr>
 					<tr>
-						<td><input type="submit" value="Login" name="login"/></td>
+						<td><input type="submit" value="Login" name="login"/>
+					<p>lost your password</p>
+					<p>Don't have an account? signup</p>
+					</td>
 					</tr>
 				</table>
 			</form>

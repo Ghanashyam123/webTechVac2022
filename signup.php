@@ -9,13 +9,15 @@
     <h1><center>Register Form</center></h1>
     <fieldset>
         <legend>Personal Information: </legend> 
-        <form action="process.php" method="POST">
+        <form action="process.php" method="POST" enctype="multipart/form-data">
             <label>username </label>
             <input type="text" name="username"><br><br>
             <label>Password : </label>
             <input type="password" name="password"><br><br>
             <label>email </label>
             <input type="email" name="email"><br><br>
+            <label>Image upload</label>
+            <input type="file" name="image" /><br><br>
             <input type="submit" name="register">
             <input type="reset">
         </form>
