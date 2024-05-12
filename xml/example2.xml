@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!DOCTYPE bookstore[
+<!ELEMENT bookstore (book)>
+<!ELEMENT book (title,author,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+ <book>
+        <title>Fundamental of computer</title>
+        <author>Rajan panday</author>
+        <price>salary &lt; 400 </price>
+ </book>
+</abc>
