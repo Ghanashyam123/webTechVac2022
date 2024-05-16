@@ -10,6 +10,18 @@
  <book>
         <title>Fundamental of computer</title>
         <author>Rajan panday</author>
-        <price>salary &lt; 400 </price>
+        <price>salary &gt; 400 </price>
+        
  </book>
-</abc>
+ 
+ 
+</bookstore>
+
+<!ELEMENT name >
+<!ATTLIST name types CDATA "fullname">
+
+
+<person>
+       <name>Ghanashyam</name>
+       <address>BRT</address>
+</person>

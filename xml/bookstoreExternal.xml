@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--external dtd -->
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd">
+<bookstore>
+ <book>
+        <title>Fundamental of computer</title>
+        <author>Rajan panday</author>
+        <price>salary &lt; 400 </price>
+ </book>
+</bookstore>
+
+<h1>welcome </h1>

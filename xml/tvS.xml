@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<tvschedule name="star sports">
+    <channel chan="sports">
+        <banner> RAMJAM production</banner>
+        <day>
+            <date> 2010</date>
+            <programslot>
+                <time>1:00pm</time>
+                <title>The Big Game</title>
+                <description>This is the biggest game ever
+            </programslot>
+            <programslot>
+                <time>1:00pm</time>
+                <title>The Big Game</title>
+                <description>This is the biggest game ever
+            </programslot>
+        </day>
+    </channel>
+</tvschedule>
+
+ dtd
+ <!ELEMENT abc >
+
+ <!ATTLIST abc name CDATA >
+
+  
+  <student>
+        <address>
+            <temp> jjaksdhfkjas</temp>
+            <par> akjhsdf </par>
+        </address>
+       <name>a,ksjdfkh</name>
+       <contact>aksdfj</contact>
+</student>
+

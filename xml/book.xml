@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<book xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com student.xsd">
+<title>Learn XML</title>
+<author>Hege Refsnes</author>
+<price>19.95</price>
+</book>
+
