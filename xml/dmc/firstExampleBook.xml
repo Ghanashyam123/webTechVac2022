@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<bookstore>
+    <book category="computer">
+        <title lang="ENG">abc </title>
+        <author>Ram </author>
+        <price>10.0</price>
+    </book>
+    <book category="computer">
+        <title lang="ENG">abc </title>
+        <author>Ram </author>
+        <price>10.0</price>
+    </book>
+    <book category="computer">
+        <title lang="ENG">abc </title>
+        <author>Ram </author>
+        <price>10.0</price>
+    </book>
+</bookstore>

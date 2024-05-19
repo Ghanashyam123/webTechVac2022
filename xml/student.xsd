@@ -6,12 +6,47 @@ elementFormDefault="qualified">
 <xs:element name="book">
 <xs:complexType>
 <xs:sequence>
-<xs:element name="title" type="xs:string"/>
-<xs:element name="author" type="xs:string"/>
-<xs:element name="price" type="xs:decimal"/>
+
+<xs:element name="title">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:pattern value="[A-Z][A-Z]"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+
+<xs:element name="author">
+    <xs:simpleType>
+    <xs:restriction base="xs:string">
+    <xs:enumeration value="ram"/>
+    <xs:enumeration value="shyam"/>
+    <xs:enumeration value="hari"/>
+    </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+<xs:element name="price">
+    <xs:simpleType>
+    <xs:restriction base="xs:decimal">
+    <xs:minInclusive value="0"/>
+    <xs:maxInclusive value="120"/>
+    </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
 </xs:sequence>
 </xs:complexType>
 </xs:element>
 </xs:schema>
 
 
+pattern 
+
+            string
+                ghanashyam //lower case   [a-z]
+                GHANAshyam //           [A-Z][A-Z][A-Z][A-Z][a-z]
+            digit
+                1234567 
+                92000
+            //////////////////////
+                 
+                 832   [0-9][0-9][0-9]

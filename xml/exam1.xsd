@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<xs:schema xmls:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="BCA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:simpleType>
+                    <xs:element name="username" type="xs:string"/>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z][a-zA-Z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]"/>
+                    </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                    <xs:element name="password" type="xs:string"/>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[Aa-Zz][a-z][a-z][a-z][a-z][a-z][a-z][a-z]"/>
+                    </xs:restriction>
+                </xs:simpleType>
+                <xs:element name="marks">
+                    <xs:simpleType>
+                        <xs:sequence>
+                            <xs:element name="internal" type="xs:integer"/>
+                            <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="0"/>
+                                <xs:maxInclusive value="60"/>
+                            </xs:restriction>
+                            <xs:element name="external" type="xs:integer"/>
+                            <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="0"/>
+                                <xs:maxInclusive value="20"/>
+                            </xs:restriction>
+                        </xs:sequence>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="address">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="temporary" type="xs:string"/>
+                            <xs:element name="permanent" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="gender">
+                    <xs:simpleType>
+                        <xs:restriction type="xs:string">
+                            <xs:enumeration value="male"/>
+                            <xs:enumeration value="female"/>
+                            <xs:enumeration value="other" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:attribute name="id" type="xs:integer" />
+            </xs:element>
+        </xs:schema>
