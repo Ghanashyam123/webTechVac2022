@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE school[
+ <!ELEMENT school (student)>
+ <!ELEMENT student (name,address)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT address (city,state)>
+ <!ELEMENT city (#PCDATA)>
+ <!ELEMENT state (#PCDATA)>
+ <!ATTLIST student roll ID #REQUIRED>
+ <!ATTLIST name fname CDATA #FIXED "student" >
+ ]>
+ <school>
+        <student roll="ID01">
+            <name fname="student">Sarmila upreti   </name>
+            <address>
+                <city>BRT</city>
+                <state>1</state>
+            </address>
+        </student>
+    </school>
+    

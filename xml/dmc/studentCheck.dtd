@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?DOCTYPE school[
+ <!ELEMENT school (student*)>
+ <!ELEMENT student (name,address)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT address (#PCDATA)>
+ ]>
