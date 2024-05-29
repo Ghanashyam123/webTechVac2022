@@ -1,0 +1,18 @@
+Question:
+
+You are tasked with creating a system to manage a library's catalog of books. The library wants to store book information in XML format and display it on their website using XSLT for presentation. Design an XML schema for storing book details and create an XSLT stylesheet to transform the XML data into an HTML table for web display.
+
+Requirements:
+
+1. XML Schema Design (4 marks):
+
+   - Define an XML schema (XSD) to represent book information. Include elements for book title, author(s), publication year, genre, and ISBN. Ensure appropriate data types and constraints are defined.
+
+2. Sample XML Data (2 marks):
+
+   - Provide a sample XML document adhering to the schema designed in requirement 1. Include details for at least three books in the library's catalog.
+
+3. XSLT Stylesheet (4 marks):
+   - Create an XSLT stylesheet to transform the XML data into an HTML table suitable for displaying on the library's website.
+   - The HTML table should include columns for book title, author(s), publication year, genre, and ISBN.
+   - Ensure proper formatting and styling of the HTML table for a visually appealing presentation.
