@@ -16,3 +16,6 @@ Requirements:
    - Create an XSLT stylesheet to transform the XML data into an HTML table suitable for displaying on the library's website.
    - The HTML table should include columns for book title, author(s), publication year, genre, and ISBN.
    - Ensure proper formatting and styling of the HTML table for a visually appealing presentation.
+
+Question:-2
+Write an XSLT styesheet to convert an XML document containing a list of books into an HTML table, where each row represents a book, and the columns are the book's title,author and publication date.
