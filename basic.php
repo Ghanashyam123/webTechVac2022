@@ -1,6 +1,12 @@
 <?php
+ 
+ $password ="123456789";
+ 
+ $bp = md5($password);
 
 
+  $p = md5("ghanashyam");// 
+  $p2 = sha1("Ghanashyam");
 
 
 
